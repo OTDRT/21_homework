@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+html{
+  font-size: 55.5%; /* 10px */
+}
+
+body{
+  /*font-family:'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro W3', 'メイリオ', 'Meiryo', 'ＭＳ Ｐゴシック', Arial, verdana, sans-serif;
+  font-size: 1.6rem;/* rem は　html要素のfont-sizeの倍率指定
+  line-height: 1.6;*/
+
+  font: 1.6rem / 1.6 "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+
+/*=======================
+commmon
+========================*/
+.cf::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.inner{
+  margin: 0 auto;
+}
+/*=======================
+footer
+========================*/
+.close button{
+  text-decoration: none;
+  padding: 10px 20px;
+  float: right;
+  border: none;
+  background-color: #fff;
+}
+.hdr-logo{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1em;
+}
+.hdr-logo a{
+  text-decoration: none;
+}
+.hdr-logo img{
+  width: 140px;
+}
+/*=======================
+nav
+========================*/
+.nav ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+.nav ul li{
+  width: 30%;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.nav ul li a{
+  text-decoration: none;
+}
+.nav ul li:nth-child(3n-1){
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.Document-request a{
+  background: rgb(249,255,95);
+  padding: .5em;
+  border-radius: 10%;
+  text-decoration: none;
+  color: rgb(100,120,120);
+  font-weight: bold;
+}
+.contact a{
+  background: rgb(249,255,95);
+  padding: .5em;
+  border-radius: 10%;
+  text-decoration: none;
+  color: rgb(100,120,120);
+  font-weight: bold;
+}
+.nav ul li:last-child{
+  text-align: center;
+}
+.nav ul li:last-child img{
+  height: 69px;
+  line-height: 69px;
+
+}
